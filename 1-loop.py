@@ -22,3 +22,8 @@ num = int(input("enter a number! \n")) # Input() always returns a string
 for i in range(1, 11):
  # print(num, 'x', i, '=' , num*i)
  print(f"{num} x {i} = {num * i}")
+
+ # find out Quotient and modulus
+for i in range(1, 51):
+     print(f"{i} / 2 = {i / 2}")
+     print(f"{i} % 2 = {i % 2}")
