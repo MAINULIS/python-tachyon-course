@@ -1,7 +1,9 @@
+# print 1- 100 numbers
 i = 1
-while i < 11:
+while i < 101:
     print(i)
-    i = i+2
+    i = i+1
+
 
 num = int(input("Enter a Number.. \n"))
 
